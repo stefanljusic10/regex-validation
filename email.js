@@ -1,7 +1,7 @@
 // Simplified email validation
 
 function validateEmail(email) {
-    const regex = /\S+@\S+\.\S+/.test(email)
+    const regex = /\S+@\S+\.\S+/.test(email);
     return regex;
 }
 
